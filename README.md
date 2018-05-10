@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/ExpressionEngine-4%2B-3784B0.svg)
 
-This add-on is used to modify default control panel styling in ExpressionEngine 4. Some of the styling is automatically changed while othe parts, such as link and button colors, you have access to modify. You can now customize control panel colors, within reason, to match your brand!
+This add-on is used to modify default control panel styling in ExpressionEngine 4. Some of the styling is automatically changed while other parts, such as link and button colors, you have access to modify. You can now customize control panel colors, within reason, to match your brand!
 
 ## What is automatically changed?
 
