@@ -1,0 +1,26 @@
+.wrap #structure-ui #tree-controls li a {
+	background-color: {{color_button}};
+	border: 1px solid {{color_button}};
+	transition: all .25s;
+}
+
+.wrap #structure-ui #tree-controls li a:hover {
+	background-color: {{color_button_hover}};
+	border: 1px solid {{color_button_hover}};
+}
+
+.wrap #structure-ui .page-ui div.page-controls span {
+	background: {{color_button_action}};
+	border: 1px solid {{color_button_action}};
+	box-shadow: 0 0 0 0;
+}
+
+.wrap #structure-ui .page-ui div.page-controls span:hover {
+	background: {{color_button_action_hover}};
+	border: 1px solid {{color_button_action_hover}};
+}
+
+.wrap #structure-ui .page-ui div.page-controls span a:link,
+.wrap #structure-ui .page-ui div.page-controls span a:visited {
+	color: #fff;
+}

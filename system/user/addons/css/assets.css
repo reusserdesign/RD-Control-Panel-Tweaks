@@ -1,0 +1,51 @@
+.assets-buttons .assets-btn {
+	background-color: {{color_button_action}};
+	border: 1px {{color_button_action}};
+	color: #fff !important;
+	font-size: 14px !important;
+}
+
+.assets-buttons .assets-btn:hover {
+	background-color: {{color_button_action_hover}};
+	border: 1px {{color_button_action_hover}};
+	color: #fff !important;
+}
+
+.assets-fm-upload .assets-btn.assets-submit {
+	background-color: {{color_button_action}} !important;
+	transition: all .25s;
+}
+
+.assets-fm-upload .assets-btn.assets-submit:hover {
+	background-color: {{color_button_action_hover}} !important;
+}
+
+.assets-fm-toolbar .assets-fm-view li.assets-fm-thumbs.assets-active,
+.assets-fm-toolbar .assets-fm-view li.assets-fm-bigthumbs.assets-active,
+.assets-fm-toolbar .assets-fm-view li.assets-fm-list.assets-active {
+	background-color: {{color_button_action}} !important;
+	transition: all .25s;
+}
+
+.assets-fm-toolbar .assets-fm-view .assets-btn:not(.assets-disabled):hover {
+	background-color: {{color_button_action_hover}} !important;
+}
+
+.assets-btn.assets-fm-refresh:not(.assets-disabled):hover {
+	background-color: {{color_button_action_hover}} !important;
+}
+
+input.submit.assets-index,
+input[type=submit] {
+	background: {{color_button}};
+    border: 1px solid {{color_button}};
+    color: #fff;
+	cursor: pointer;
+	transition: all .25s;
+}
+
+input.submit.assets-index:hover,
+input[type=submit]:hover {
+	background: {{color_button_hover}};
+    border: 1px solid {{color_button_hover}};
+}

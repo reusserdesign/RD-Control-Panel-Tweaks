@@ -1,0 +1,10 @@
+.nav-global-wrap .nav-global .nav-site,
+.nav-global-wrap .nav-global .nav-has-sub {
+    border: solid rgba(0,0,0,.15);
+    border-width: 0 1px;
+}
+
+.nav-global-wrap .nav-global .nav-site:hover,
+.nav-global-wrap .nav-global .nav-has-sub:hover {
+    background-color: rgba(0,0,0,.15);
+}
