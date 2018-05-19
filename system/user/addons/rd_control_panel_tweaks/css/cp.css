@@ -166,3 +166,14 @@ input[type=submit].btn:hover,
 a {
 	transition: all .25s;
 }
+
+.wrap .btn.action {
+	background: {{color_button_action}};
+	border: 1px solid {{color_button_action}};
+	box-shadow: 0 0 0 0;
+}
+
+.wrap .btn.action:hover {
+	background: {{color_button_action_hover}};
+	border: 1px solid {{color_button_action_hover}};
+}
