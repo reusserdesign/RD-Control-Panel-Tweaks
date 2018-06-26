@@ -104,6 +104,7 @@ class Rd_control_panel_tweaks_ext {
 		// Settings for hiding buttons
 		$settings['hide_files_button'] = array('ms', $groups, '');
 		$settings['hide_developer_button'] = array('ms', $groups, '');
+		$settings['hide_preview_button'] = array('ms', $groups, '');
 
 		return $settings;
 	}
@@ -143,6 +144,7 @@ class Rd_control_panel_tweaks_ext {
 		$wygwam_style = file_get_contents( PATH_THIRD . '/rd_control_panel_tweaks/css/wygwam.css');
 		$hide_files_button = file_get_contents( PATH_THIRD . '/rd_control_panel_tweaks/css/hide-files-button.css');
 		$hide_developer_button = file_get_contents( PATH_THIRD . '/rd_control_panel_tweaks/css/hide-developer-button.css');
+		$hide_preview_button = file_get_contents( PATH_THIRD . '/rd_control_panel_tweaks/css/hide-preview-button.css');
 		$upper_nav = file_get_contents( PATH_THIRD . '/rd_control_panel_tweaks/css/upper-nav.css');
 
 		//Hide buttons
@@ -160,6 +162,15 @@ class Rd_control_panel_tweaks_ext {
 			{
 				if ($row == $group_id) {
 					$css .= $hide_developer_button;
+				}
+			}
+		}
+
+		if (isset($this->settings['hide_preview_button'])) {
+			foreach ($this->settings['hide_preview_button'] as $row)
+			{
+				if ($row == $group_id) {
+					$css .= $hide_preview_button;
 				}
 			}
 		}
