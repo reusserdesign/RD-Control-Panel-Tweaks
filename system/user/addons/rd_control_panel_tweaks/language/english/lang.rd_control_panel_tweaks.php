@@ -14,6 +14,7 @@ $lang = array(
 // END
 'hide_files_button'                 =>      'Button Override: Hide "Files" button for...',
 'hide_developer_button'             =>      'Button Override: Hide "Developers" button for...',
+'hide_preview_button'            	=>      'Button Override: Hide "Live Preview" button for...',
 'color_top_bar'                     =>      'Color Override: Top Bar<br /><span style="font-weight: 300">Enter a CSS Color Value. Delete to reset to the default color.</span>',
 'color_top_bar_link'                =>      'Color Override: Top Bar Link<br /><span style="font-weight: 300">Enter a CSS Color Value. Delete to reset to the default color.</span>',
 'color_top_bar_link_hover'          =>      'Color Override: Top Bar Link Hover State<br /><span style="font-weight: 300">Enter a CSS Color Value. Delete to reset to the default color.</span>',
