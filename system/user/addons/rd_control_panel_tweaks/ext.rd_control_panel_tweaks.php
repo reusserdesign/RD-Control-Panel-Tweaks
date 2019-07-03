@@ -24,7 +24,7 @@ class Rd_control_panel_tweaks_ext {
 
 		// required extension properties
 		$this->name				= 'RD Control Panel Tweaks';
-		$this->version			= '1.1';
+		$this->version			= '1.1.1';
 		$this->description		= 'This add-on modifies some of the default control panel styling as well as gives you options to make various overrides such as button colors and hiding certain parts of the navigation. You can now customize control panel colors (within reason) to match your brand.';
 		$this->settings_exist	= 'y';
 
